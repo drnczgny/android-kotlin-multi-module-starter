@@ -47,20 +47,16 @@ android {
 
 dependencies {
     def libs = rootProject.ext.libraries
-
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-
     // kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     testImplementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-
     // databinding
     kapt "com.android.databinding:compiler:$android_plugin_version"
-
     // support lib
     implementation libs.supportAppCompat
     implementation libs.supportRecyclerView
@@ -68,25 +64,22 @@ dependencies {
     implementation libs.supportDesign
     implementation libs.supportV4
     implementation libs.constraintLayout
-
     // dagger
     implementation libs.dagger
     implementation libs.daggerAndroidSupport
     kapt libs.daggerCompiler
     kapt libs.daggerAndroidProcessor
-
-//    // retrofit
-//    implementation libs.rxJavaAdapter
-//    implementation libs.retrofit
-//    implementation libs.retrofitConverterGson
-//    implementation libs.retrofitConverterScalars
-//    implementation libs.okHttp
-
+        // retrofit
+        implementation libs.rxJavaAdapter
+        implementation libs.retrofit
+        implementation libs.retrofitConverterGson
+        implementation libs.retrofitConverterScalars
+        implementation libs.okHttp
     // other 3rd party
     implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'com.jakewharton.threetenabp:threetenabp:1.0.5'
     testImplementation 'junit:junit:4.12'
-    implementation project(':appservice')
+    implementation project(':app-model')
 }
 
 repositories {

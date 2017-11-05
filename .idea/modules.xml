@@ -7,8 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/android-kotlin-multi-module-starter.iml" filepath="$PROJECT_DIR$/android-kotlin-multi-module-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\Users\cadri\AndroidStudioProjects\android-kotlin-architecture-components-example\app\app.iml" filepath="C:\Users\cadri\AndroidStudioProjects\android-kotlin-architecture-components-example\app\app.iml" />
-      <module fileurl="file://C:\Users\cadri\AndroidStudioProjects\android-kotlin-multi-module-starter\app\app.iml" filepath="C:\Users\cadri\AndroidStudioProjects\android-kotlin-multi-module-starter\app\app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/appservice/appservice.iml" filepath="$PROJECT_DIR$/appservice/appservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-model/app-model.iml" filepath="$PROJECT_DIR$/app-model/app-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service/app-service.iml" filepath="$PROJECT_DIR$/app-service/app-service.iml" />
     </modules>
   </component>
 </project>

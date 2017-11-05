@@ -19,8 +19,7 @@ android {
 
 dependencies {
     def libs = rootProject.ext.libraries
-
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
 
     implementation libs.supportAppCompat
 
@@ -30,7 +29,6 @@ dependencies {
     implementation libs.retrofitConverterGson
     implementation libs.retrofitConverterScalars
     implementation libs.okHttp
-
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
