@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\cadri\AndroidStudioProjects\android-kotlin-architecture-components-example\android-kotlin-dagger2-contributesandroidinjector.iml" filepath="C:\Users\cadri\AndroidStudioProjects\android-kotlin-architecture-components-example\android-kotlin-dagger2-contributesandroidinjector.iml" />
+      <module fileurl="file://C:\Users\cadri\AndroidStudioProjects\android-kotlin-multi-module-starter\android-kotlin-dagger2-starter.iml" filepath="C:\Users\cadri\AndroidStudioProjects\android-kotlin-multi-module-starter\android-kotlin-dagger2-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-kotlin-multi-module-starter.iml" filepath="$PROJECT_DIR$/android-kotlin-multi-module-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\cadri\AndroidStudioProjects\android-kotlin-architecture-components-example\app\app.iml" filepath="C:\Users\cadri\AndroidStudioProjects\android-kotlin-architecture-components-example\app\app.iml" />
+      <module fileurl="file://C:\Users\cadri\AndroidStudioProjects\android-kotlin-multi-module-starter\app\app.iml" filepath="C:\Users\cadri\AndroidStudioProjects\android-kotlin-multi-module-starter\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appservice/appservice.iml" filepath="$PROJECT_DIR$/appservice/appservice.iml" />
+    </modules>
+  </component>
+</project>
