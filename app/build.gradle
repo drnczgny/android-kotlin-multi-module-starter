@@ -75,12 +75,12 @@ dependencies {
     kapt libs.daggerCompiler
     kapt libs.daggerAndroidProcessor
 
-    // retrofit
-    implementation libs.rxJavaAdapter
-    implementation libs.retrofit
-    implementation libs.retrofitConverterGson
-    implementation libs.retrofitConverterScalars
-    implementation libs.okHttp
+//    // retrofit
+//    implementation libs.rxJavaAdapter
+//    implementation libs.retrofit
+//    implementation libs.retrofitConverterGson
+//    implementation libs.retrofitConverterScalars
+//    implementation libs.okHttp
 
     // other 3rd party
     implementation 'com.squareup.picasso:picasso:2.5.2'
