@@ -1,12 +1,12 @@
 package com.adrian.project.di
 
-import com.adrian.project.ui.jsonplaceholder.di.JsonPlaceholderModule
+import com.adrian.kotlinrecyclerviewdagger.main.di.ActivityScope
 import com.adrian.project.ui.jsonplaceholder.di.JsonPlaceholderFragmentBuilderModule
+import com.adrian.project.ui.jsonplaceholder.di.JsonPlaceholderModule
 import com.adrian.project.ui.jsonplaceholder.submodules.postspage.di.PostsPageModule
 import com.adrian.project.ui.main.JsonPlaceholderActivity
-import com.adrian.project.ui.main.view.MainActivity
 import com.adrian.project.ui.main.di.MainModule
-import com.adrian.kotlinrecyclerviewdagger.main.di.ActivityScope
+import com.adrian.project.ui.main.view.MainActivity
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

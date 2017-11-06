@@ -1,10 +1,10 @@
 package com.adrian.project.ui.jsonplaceholder.submodules.postspage.di
 
-import com.adrian.project.data.ApiService
 import com.adrian.project.scope.FragmentScope
+import com.adrian.project.ui.jsonplaceholder.model.PostsPageModel
 import com.adrian.project.ui.jsonplaceholder.submodules.postspage.PostsPageFragment
-import com.adrian.project.ui.jsonplaceholder.submodules.postspage.PostsPageModel
 import com.adrian.project.ui.jsonplaceholder.submodules.postspage.PostsPageRouter
+import com.adrian.project.ui.main.service.ApiService
 import dagger.Module
 import dagger.Provides
 

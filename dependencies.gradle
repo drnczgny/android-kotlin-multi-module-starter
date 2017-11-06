@@ -30,6 +30,7 @@ ext {
     libraries = [
             appmodel: project(':app-model'),
             appservice: project(':app-service'),
+            common: project(':common'),
 
             supportAppCompat: "com.android.support:appcompat-v7:${supportLibraryVersion}",
             supportRecyclerView: "com.android.support:recyclerview-v7:${supportLibraryVersion}",

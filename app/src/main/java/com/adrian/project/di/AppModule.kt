@@ -1,7 +1,7 @@
 package com.adrian.project.di
 
 import com.adrian.project.MyApplication
-import com.adrian.project.data.ApiService
+import com.adrian.project.ui.main.service.ApiService
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

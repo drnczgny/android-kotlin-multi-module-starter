@@ -1,10 +1,10 @@
 package com.adrian.project.ui.jsonplaceholder.di
 
-import com.adrian.project.data.ApiService
-import com.adrian.project.ui.main.JsonPlaceholderActivity
+import com.adrian.kotlinrecyclerviewdagger.main.di.ActivityScope
 import com.adrian.project.ui.jsonplaceholder.submodules.postspage.JsonPlaceholderModel
 import com.adrian.project.ui.jsonplaceholder.submodules.postspage.JsonPlaceholderRouter
-import com.adrian.kotlinrecyclerviewdagger.main.di.ActivityScope
+import com.adrian.project.ui.main.JsonPlaceholderActivity
+import com.adrian.project.ui.main.service.ApiService
 import dagger.Module
 import dagger.Provides
 

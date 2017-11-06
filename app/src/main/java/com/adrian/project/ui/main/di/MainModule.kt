@@ -1,8 +1,8 @@
 package com.adrian.project.ui.main.di
 
-import com.adrian.project.data.ApiService
-import com.adrian.project.ui.main.view.MainActivity
 import com.adrian.project.ui.main.model.MainModel
+import com.adrian.project.ui.main.service.ApiService
+import com.adrian.project.ui.main.view.MainActivity
 import dagger.Module
 import dagger.Provides
 
@@ -18,4 +18,5 @@ class MainModule {
 
     @Provides
     fun provideMainModel(apiService: ApiService) = MainModel(apiService)
+
 }

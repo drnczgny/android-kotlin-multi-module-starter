@@ -20,18 +20,14 @@ android {
 
 dependencies {
     def libs = rootProject.ext.libraries
-
-    api project(':app-service')
-    api project(':common')
-
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+
     implementation libs.supportAppCompat
 
     // kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     testImplementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-
     // dagger
     implementation libs.dagger
     implementation libs.daggerAndroidSupport
@@ -41,7 +37,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
 repositories {
     mavenCentral()

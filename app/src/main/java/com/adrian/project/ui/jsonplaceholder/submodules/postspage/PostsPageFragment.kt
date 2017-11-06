@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.adrian.project.R
+import com.adrian.project.ui.jsonplaceholder.model.PostsPageModel
 import dagger.android.support.AndroidSupportInjection
 import javax.inject.Inject
 
