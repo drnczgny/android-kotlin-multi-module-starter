@@ -34,7 +34,7 @@ class PostsPageFragment : Fragment(), PostsPageRouter {
         }
     }
 
-    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         postsPageModel.callApiService()
 
         return inflater!!.inflate(R.layout.fragment_posts_page, container, false)
