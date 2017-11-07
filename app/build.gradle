@@ -50,6 +50,7 @@ dependencies {
     def libs = rootProject.ext.libraries
 
     implementation project(':app-model')
+    implementation project(':app-service')
     implementation project(':common')
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')

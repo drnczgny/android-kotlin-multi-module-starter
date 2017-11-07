@@ -20,7 +20,7 @@ android {
 dependencies {
     def libs = rootProject.ext.libraries
 
-    api project(':app-service')
+    implementation project(':app-service')
     implementation project(':common')
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
