@@ -13,15 +13,27 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        defaultPublishConfig 'release'
+        publishNonDefault true
         multiDexEnabled true
+    }
+    buildTypes {
+        debug {}
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
     }
 }
 
 dependencies {
     def libs = rootProject.ext.libraries
 
-    implementation project(':app-service')
-    implementation project(':common')
+    debugImplementation project(':app-service')
+    releaseImplementation project(':app-service')
+
+    debugImplementation project(':common')
+    releaseImplementation project(':common')
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation libs.supportAppCompat

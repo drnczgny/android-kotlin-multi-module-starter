@@ -20,6 +20,7 @@ android {
         multiDexEnabled true
     }
     buildTypes {
+        debug {}
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -49,9 +50,14 @@ android {
 dependencies {
     def libs = rootProject.ext.libraries
 
-    implementation project(':app-model')
-    implementation project(':app-service')
-    implementation project(':common')
+    debugImplementation project(':app-model')
+    releaseImplementation project(':app-model')
+
+    debugImplementation project(':app-service',)
+    releaseImplementation project(':app-service')
+
+    debugImplementation project(':common')
+    releaseImplementation project(':common')
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
