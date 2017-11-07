@@ -49,8 +49,8 @@ android {
 dependencies {
     def libs = rootProject.ext.libraries
 
-    api project(':app-model')
-    api project(':common')
+    implementation project(':app-model')
+    implementation project(':common')
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {

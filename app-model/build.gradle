@@ -21,7 +21,7 @@ dependencies {
     def libs = rootProject.ext.libraries
 
     api project(':app-service')
-    api project(':common')
+    implementation project(':common')
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation libs.supportAppCompat

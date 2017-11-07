@@ -11,5 +11,4 @@ class MainModel constructor(val apiService: ApiService) {
     fun callApiService() {
         apiService.fakeApiCall()
     }
-
 }

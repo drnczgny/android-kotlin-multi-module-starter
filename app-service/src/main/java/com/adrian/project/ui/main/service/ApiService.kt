@@ -15,5 +15,4 @@ class ApiService constructor() {
     fun fakeApiCall() {
         Log.i(log.TAG, "fake API call...");
     }
-
 }
